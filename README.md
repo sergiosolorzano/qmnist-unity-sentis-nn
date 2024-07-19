@@ -14,6 +14,7 @@ The model's predicted value is finally displayed to the user.
 <video src="https://github.com/user-attachments/assets/1bc558f5-4936-41f7-8301-1e964bed4fa6" controls="controls" muted="muted" playsinline="playsinline">
       </video>
 
+
 ## Acknowledgements
 Thanks to Unity for the Sentis quick start samples.
 
