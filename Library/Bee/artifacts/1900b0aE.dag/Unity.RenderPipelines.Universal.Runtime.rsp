@@ -109,6 +109,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:ENABLE_BURST_1_0_0_OR_NEWER
@@ -116,6 +117,7 @@
 -define:ENABLE_XR_MODULE
 -define:USING_ANIMATION_MODULE
 -define:USING_PHYSICS2D_MODULE
+-define:ENABLE_INPUT_SYSTEM_PACKAGE
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/AR-VR-Github/Sentis-MNIST-Self-Train/Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"

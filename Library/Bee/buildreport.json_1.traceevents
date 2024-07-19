@@ -1,0 +1,608 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1721403408117183, "dur": 358475, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408117194, "dur": 15206, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408132403, "dur": 32762, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408165167, "dur": 170813, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408335982, "dur": 127152, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408463135, "dur": 12521, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408476022, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1721403408242819, "dur": 78686, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1721403408243530, "dur": 34668, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1721403408308946, "dur": 2981, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1721403408311930, "dur": 9570, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1721403408312381, "dur": 8626, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1721403408324512, "dur": 869, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1721403408323860, "dur": 1536, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408476076, "dur": 1863, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1721403408370907, "dur":853, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408371763, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1721403408371806, "dur":8, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1721403408371815, "dur":480, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1721403408372312, "dur":245, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408372557, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444581, "dur":205, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444786, "dur":108, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444894, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444897, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444908, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444924, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444952, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444956, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444962, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444963, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444966, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444967, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444970, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444971, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444974, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444975, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444978, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444979, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444981, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444982, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444986, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444987, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444989, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444990, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444992, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444993, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444995, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444996, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408444999, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445000, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445004, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445004, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445007, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445008, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445011, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445011, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445014, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445015, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445018, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445019, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445021, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445022, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445025, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445026, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445028, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445029, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445032, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445033, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445036, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445051, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408445067, "dur":685, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1721403408372279, "dur":292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408372571, "dur":3081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408375658, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1721403408375812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408376887, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1721403408378858, "dur":7363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408386222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408386224, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408388061, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408388158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408388161, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408390049, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408390229, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408390231, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408392982, "dur":18613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408411597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1721403408411600, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1721403408412981, "dur":31620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408372352, "dur":232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408372584, "dur":3118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408375703, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1721403408375933, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408380075, "dur":1085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1721403408381199, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408381323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408381326, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408383044, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408383125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408383128, "dur":2203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408385352, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408385451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408385453, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408386829, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408386987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408386990, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408388972, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408389065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408389068, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408391679, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408391778, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408391781, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408394318, "dur":24097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408418417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1721403408418420, "dur":828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1721403408419265, "dur":25350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721403408372275, "dur":291, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721403408372566, "dur":3134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721403408375701, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1721403408375869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721403408379140, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1721403408379857, "dur":20375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721403408400234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721403408400237, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1721403408400820, "dur":9379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1721403408410201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1721403408410204, "dur":541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1721403408410763, "dur":33832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721403408372304, "dur":270, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721403408372574, "dur":3156, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721403408375731, "dur":27480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist.exe" }}
+,{ "pid":12345, "tid":4, "ts":1721403408403212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1721403408403215, "dur":617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist.exe" }}
+,{ "pid":12345, "tid":4, "ts":1721403408403847, "dur":40778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408372768, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408372768, "dur":2903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408375672, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1721403408375850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408377505, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1721403408378848, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408378922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408379274, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408381100, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408381256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408381260, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408383220, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408383460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408383464, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408385968, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408386141, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408386144, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408388644, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408388793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408388797, "dur":2638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408391466, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408391557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408391560, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408394116, "dur":7556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408401674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408401678, "dur":638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1721403408402332, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1721403408402352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1721403408402354, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1721403408402967, "dur":41660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408372372, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408372587, "dur":3070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408375658, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1721403408375845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408376856, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1721403408379095, "dur":16593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721403408395691, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408395694, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721403408396472, "dur":1932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721403408398406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408398409, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1721403408400409, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1721403408400440, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408400442, "dur":631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1721403408401089, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1721403408401106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408401107, "dur":1374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1721403408402500, "dur":6877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1721403408409379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1721403408409383, "dur":531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1721403408409930, "dur":34674, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408372392, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408372594, "dur":3065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408375659, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1721403408375872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408379717, "dur":867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1721403408380634, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408380800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408380867, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408382871, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408383034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408383037, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408385436, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408385526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408385529, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408387598, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408387707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408387709, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408390112, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408390370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408390372, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408393387, "dur":19155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408412544, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1721403408412547, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1721403408413127, "dur":31466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721403408372412, "dur":187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721403408372599, "dur":3122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721403408375728, "dur":14915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721403408390645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721403408390648, "dur":9171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1721403408399842, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1721403408399864, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1721403408399930, "dur":21026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1721403408420972, "dur":23630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408372430, "dur":175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408372605, "dur":3048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408375658, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1721403408375945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408380951, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1721403408382364, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408382476, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408382481, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408384475, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408384627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408384630, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408386955, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408387065, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408387067, "dur":2225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408389313, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408389428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408389430, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408392226, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408392645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408392648, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408394947, "dur":1125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408396074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408396077, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408397351, "dur":46381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Google.Protobuf_Packed.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408443735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1721403408443739, "dur":764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Google.Protobuf_Packed.dll" }}
+,{ "pid":12345, "tid":9, "ts":1721403408444518, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1721403408444520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408372456, "dur":154, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408372610, "dur":3045, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408375659, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1721403408375855, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408377619, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1721403408379207, "dur":9278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1721403408388488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408388492, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1721403408390749, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1721403408390917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408390919, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1721403408393827, "dur":24881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1721403408418710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1721403408418714, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1721403408419880, "dur":24729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408372477, "dur":138, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408372615, "dur":3059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408375674, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1721403408375944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408380543, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1721403408381681, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408381829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408381831, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408383622, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408383767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408383771, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408386554, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408386705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408386709, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408389182, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408389252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408389254, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408391783, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408392122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408392126, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408394614, "dur":25906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408420522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1721403408420525, "dur":604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1721403408421143, "dur":23449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408372499, "dur":121, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408372620, "dur":3059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408375679, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1721403408375843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408377203, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1721403408379055, "dur":14951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1721403408394008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408394023, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1721403408395205, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1721403408395310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408395313, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1721403408396051, "dur":12302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1721403408408355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1721403408408358, "dur":539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1721403408408911, "dur":35687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408372516, "dur":110, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408372626, "dur":3044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408375674, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1721403408375954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408382411, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1721403408383480, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408383583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408383585, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408385950, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408386041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408386044, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408387760, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408387836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408387838, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408390139, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408390255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408390260, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408392966, "dur":6355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408399323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408399326, "dur":558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":13, "ts":1721403408399906, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1721403408399946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408399949, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1721403408400966, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1721403408400983, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408400985, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1721403408401991, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1721403408402010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408402011, "dur":443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1721403408402472, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1721403408402492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1721403408402506, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1721403408403015, "dur":41563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408372533, "dur":95, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408372628, "dur":3090, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408375718, "dur":3550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408379270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408379319, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408382490, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408382600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408382603, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408384517, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408384584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408384586, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408386654, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408386742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408386745, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408388807, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408388902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408388905, "dur":2321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408391245, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.Sentis.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408391582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408391584, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.Sentis.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408393847, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408393917, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408393919, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408395165, "dur":8156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408403323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1721403408403326, "dur":464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":14, "ts":1721403408403806, "dur":40773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408372564, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408372565, "dur":3084, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408375663, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1721403408375668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408376673, "dur":243, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1721403408376920, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1721403408376955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408377122, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1721403408378756, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1721403408378827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408379291, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1721403408381486, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408381565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408381567, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408383416, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408383495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408383497, "dur":2379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408385898, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408386069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408386072, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408387801, "dur":10226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408398029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408398034, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408398894, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408398974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408398977, "dur":526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408399518, "dur":30504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408430028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1721403408430440, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":15, "ts":1721403408431182, "dur":13401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408372595, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408372595, "dur":3081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408375676, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1721403408375796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408383287, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1721403408383807, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408383881, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408383883, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408386057, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408386152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408386154, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408388054, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408388145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408388148, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408390038, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408390113, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408390115, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408392722, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408392889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408392891, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408394969, "dur":38890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408433861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1721403408433865, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":16, "ts":1721403408435029, "dur":9552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1721403408372623, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1721403408372623, "dur":3071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1721403408375695, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1721403408375862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1721403408378408, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":17, "ts":1721403408379410, "dur":9282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1721403408388694, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1721403408388704, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1721403408391211, "dur":20296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.Sentis.ONNX.dll" }}
+,{ "pid":12345, "tid":17, "ts":1721403408411510, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1721403408411514, "dur":739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.Sentis.ONNX.dll" }}
+,{ "pid":12345, "tid":17, "ts":1721403408412269, "dur":32338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408372642, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408372642, "dur":3061, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408375704, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408376390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408376575, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408378960, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408379037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408379285, "dur":1410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408380755, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408380877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408380880, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408382391, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408382486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408382490, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408384120, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408384203, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408384205, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408386471, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408386602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408386623, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408388765, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408388838, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408388840, "dur":2404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408391262, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408391334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408391338, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408393607, "dur":22211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408415820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1721403408415824, "dur":800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":18, "ts":1721403408416638, "dur":27953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408372661, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408372662, "dur":2994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408375659, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1721403408375947, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408376586, "dur":2370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":19, "ts":1721403408378983, "dur":15218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1721403408394203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408394205, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1721403408395182, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":19, "ts":1721403408395601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408395604, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":19, "ts":1721403408396587, "dur":9764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":19, "ts":1721403408406353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1721403408406357, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":19, "ts":1721403408406985, "dur":37591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408372688, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408372689, "dur":2988, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408375680, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1721403408375959, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408376442, "dur":2269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":20, "ts":1721403408378776, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408378970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408379280, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408380810, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408380889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408380891, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408382558, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408383017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408383020, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408385373, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408385482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408385485, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408387089, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408387173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408387175, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408389327, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408389416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408389418, "dur":2729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408392170, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408392261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408392279, "dur":2233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408394533, "dur":22961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408417497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1721403408417501, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":20, "ts":1721403408418207, "dur":26392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408372709, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408372709, "dur":2982, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408375692, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":21, "ts":1721403408375940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408381331, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":21, "ts":1721403408382756, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408382956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408382959, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408384541, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408384600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408384602, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408386531, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408386626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408386629, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408388453, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408388544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408388546, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408390479, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408390576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408390578, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408393407, "dur":22295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408415705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1721403408415710, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":21, "ts":1721403408416596, "dur":28012, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408372727, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408372727, "dur":3001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408375728, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":22, "ts":1721403408376505, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408376508, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":22, "ts":1721403408379150, "dur":7195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408386347, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408386349, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408388242, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408388727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408388740, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408391430, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408391715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408391718, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408394284, "dur":5480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408399765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408399768, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":22, "ts":1721403408400496, "dur":7358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":22, "ts":1721403408407857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1721403408407860, "dur":600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":22, "ts":1721403408408503, "dur":36086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408372746, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408372746, "dur":2926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408375684, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":23, "ts":1721403408375930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408379781, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":23, "ts":1721403408380768, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408380884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408380887, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408383006, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408383098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408383100, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408385396, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408385511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408385515, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408387437, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408387518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408387521, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408389509, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408389580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408389582, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408392390, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408392898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408392901, "dur":2296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408395216, "dur":9296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408404514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1721403408404516, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":23, "ts":1721403408405124, "dur":39453, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408372324, "dur":256, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408372580, "dur":3071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408375659, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":24, "ts":1721403408375936, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408382191, "dur":1152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":24, "ts":1721403408383381, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408383499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408383501, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408385624, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408385744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408385746, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408387542, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408387613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408387649, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408389777, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408389850, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408389852, "dur":2707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408392585, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408392678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408392681, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408394552, "dur":24797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Win-Build/Sentis-Mnist_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408419364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1721403408419368, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Win-Build/Sentis-Mnist_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":24, "ts":1721403408419989, "dur":24621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1721403408446479, "dur":1034, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1721403408477999, "dur": 1616, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1721403408476012, "dur": 3621, "ph": "X", "name": "Write chrome-trace events", "args": {} },
