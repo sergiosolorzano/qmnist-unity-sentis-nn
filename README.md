@@ -20,7 +20,7 @@ The model's predicted value is finally displayed to the user.
 
 ## Inference to Frame speed considerations
 
-The app is setup for the user to press the button to run inference while game play pauses. This is because the running execution in a single frame would cause low or stuttering framerates in gameplay. Unity Sentis provides a a method to peek on the network's layers, keeping a balance game play required frames and inference use of resources. You can read more [here].(https://docs.unity3d.com/Packages/com.unity.sentis@1.3/manual/run-a-model-a-layer-at-a-time.html).
+The app is setup for the user to press the button to run inference while game play pauses. This is because the running execution in a single frame would cause low or stuttering framerates in gameplay. Unity Sentis provides a a method to peek on the network's layers, keeping a balance game play required frames and inference use of resources. You can read more [here](https://docs.unity3d.com/Packages/com.unity.sentis@1.3/manual/run-a-model-a-layer-at-a-time.html).
 
 ## Acknowledgements
 Thanks to Unity for the Sentis quick start samples.
