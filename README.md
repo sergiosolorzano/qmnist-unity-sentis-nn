@@ -1,6 +1,12 @@
 ## Description
 This Unity app runs inference on Unity on a convolutional neural network (CNN) that we train in a jupyter notebook to recognize a user's handwritten digits. 
 
+<p align="center">
+<img width="150" alt="star" src="https://github.com/sergiosolorzano/ai_gallery/assets/24430655/3c0b02ea-9b11-401a-b6f5-c61b69ad651b">
+</p>
+
+---------------------------------------------
+
 ## Setup
 The project includes a jupyter notebook in [the Train-MNIST directory](https://github.com/sergiosolorzano/qmnist-unity-sentis-nn/tree/main/Train-MNIST) with a CNN trained to reconize handwritten digits on the Q-MNIST dataset. Training runs on GPU if CUDA is available, else CPU. Using pytorch's onnx module the the CNN model is converted to [ONNX format](https://docs.unity3d.com/Packages/com.unity.sentis@1.3/manual/convert-a-file-to-onnx.html#:~:text=Converting%20PyTorch%20files%20to%20ONNX&text=You%20will%20need%20to%20first,not%20contain%20the%20model%20graph.) which Unity3D's Sentis neural network can use for inference. I exported the trained model into Unity3D to predict the user's handwritten digits.
 
